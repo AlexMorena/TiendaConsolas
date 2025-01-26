@@ -1,0 +1,125 @@
+body, h1, h3, a, button, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+#encabezado {
+    text-align: center;
+    padding: 20px;
+    background-color: #2196F3; 
+    color: white;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#encabezado h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+form {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+form th, form td {
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+form th {
+    background-color: #f0f0f0;
+    color: #1976D2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+form input[type="text"]:focus,
+form select:focus,
+form textarea:focus {
+    border-color: #2196F3;
+    outline: none;
+}
+
+form button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #1976D2;
+}
+
+form input[type="submit"],
+form button[type="submit"] {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1976D2;
+}
+
+form a, button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+
