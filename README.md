@@ -2,7 +2,7 @@
 
 🚀 **Tienda Consolas** es una aplicación web diseñada para gestionar el stock de una tienda de videojuegos.  
 💾 Permite consultar consolas, juegos y realizar compras en línea.  
-🔐 Los administradores pueden gestionar el stock de productos de manera eficiente.  
+🔐 Los administradores pueden gestionar el stock de productos de manera eficiente. 
 
 ---
 
